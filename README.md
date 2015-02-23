@@ -4,14 +4,14 @@ Before starting with any of the following instructions, ensure that you have IBM
 
 **THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE IS AVAILABLE HERE** http://www.slideshare.net/kosipov/fiu-cloudhackathonlec1
 
-**What is IBM Bluemix?** IBM Bluemix is a open source based cloud computing platform for building, running, and managing applications. Bluemix is built on  [Cloud Foundry](http://cloudfoundry.org/about/index.html), a [Platform as a Service](http://thoughtsoncloud.com/2014/02/what-is-platform-as-a-service-paas/) technology with a broad community both contributing and supporting the project. With IBM Bluemix, developers can focus on writing code instead of worrying about how to setup hardware, install and upgrade operating systems, deploy and configure Cloud Foundry, or maintain a high level of availability for cloud infrastructure and applications. 
+**What is IBM Bluemix?** IBM Bluemix is an open source based cloud computing platform for building, running, and managing applications. Bluemix is built on  [Cloud Foundry](http://cloudfoundry.org/about/index.html), a [Platform as a Service](http://thoughtsoncloud.com/2014/02/what-is-platform-as-a-service-paas/) technology with a broad community both contributing and supporting the project. With IBM Bluemix, developers can focus on writing code instead of worrying about how to setup hardware, install and upgrade operating systems, deploy and configure Cloud Foundry, or maintain a high level of availability for cloud infrastructure and applications. 
 
 #Hackathon Project Ideas
 
-* [Your Celebrity Match with Watson Personality Modeling]()
-* [Buying a smartphone with Watson Tradeoff Analytics]()
-* [Talent Hotspot]()
-* [Remote Control of a Lego Robot]()
+* [Your Celebrity Match with Watson Personality Modeling](https://github.com/osipov/fiu-2015-hackathon#your-celebrity-match-with-watson-personality-modeling)
+* [Buying a smartphone with Watson Tradeoff Analytics](https://github.com/osipov/fiu-2015-hackathon#buying-a-smartphone-with-watson-tradeoff-analytics)
+* [Talent Hotspot](https://github.com/osipov/fiu-2015-hackathon#talent-hotspot-or-persona-fusion)
+* [Remote Control of a Lego Robot](https://github.com/osipov/fiu-2015-hackathon#remote-control-of-a-lego-robot)
 
 ##Your Celebrity Match with Watson Personality Modeling
 The [application](http://your-celebrity-match.mybluemix.net/) uses IBM Watson User Modeling and Twitter to find the celebrities that are similar to your personality. Twitter is being use to get the tweets for a given handler, the text from those tweets is send to User Modeling, who analyze the text and reply with a personality profile. That profile is compared to celebrity profiles to find the most similar. The source code for the application is available here: https://github.com/watson-developer-cloud/yourcelebritymatch
@@ -28,13 +28,12 @@ If you have access to a LEGO Mindstorms robot you might be interested in trying 
 
 #Other Useful Services
 
-* [Cloudant Document-oriented NoSQL Database](
-https://github.com/IBM-Bluemix/fiu-2015-hackathon/blob/master/README.md#cloudant-document-oriented-nosql-database)
-* [MySQL Relational Database](https://github.com/IBM-Bluemix/fiu-2015-hackathon#mysql-relational-database)
-* [Sendgrid Email as a Service](https://github.com/IBM-Bluemix/fiu-2015-hackathon#sendgrid-email-as-a-service)
-* [Twilio Telephony as a Service](https://github.com/IBM-Bluemix/fiu-2015-hackathon#twilio-telephony-as-a-service)
-* [Internet of Things / Wearables](https://github.com/IBM-Bluemix/fiu-2015-hackathon#internet-of-things--wearables)
-* [IBM Watson Question Answering for Travel](https://github.com/IBM-Bluemix/fiu-2015-hackathon#ibm-watson-question-answering-qa-for-travel)
+* [Cloudant Document-oriented NoSQL Database](https://github.com/osipov/fiu-2015-hackathon#cloudant-document-oriented-nosql-database)
+* [MySQL Relational Database](https://github.com/osipov/fiu-2015-hackathon#mysql-relational-database)
+* [Sendgrid Email as a Service](https://github.com/osipov/fiu-2015-hackathon#sendgrid-email-as-a-service)
+* [Twilio Telephony as a Service](https://github.com/osipov/fiu-2015-hackathon#twilio-telephony-as-a-service)
+* [Internet of Things / Wearables](https://github.com/osipov/fiu-2015-hackathon#internet-of-things--wearables)
+* [IBM Watson Question Answering for Travel](https://github.com/osipov/fiu-2015-hackathon#ibm-watson-question-answering-qa-for-travel)
 
 ##Cloudant Document-Oriented (NoSQL) Database
 
@@ -205,4 +204,4 @@ The page lets you type in a question, like "What should I do in Prague" and ask 
 0. **How does the Twilio Telephony as a Service sample work?** The sample requires the developer to have a Twilio account and to validate 2 phone numbers with Twilio: one as a "text from" and another as a "text to". Twilio credentials must be entered when binding the service to the application using the Bluemix user interface. Once the service is bound, the sample code in index.php pulls the credentials from the VCAP_SERVICES environment variable to connect to an application specific Twilio instance. Once a user opens the application URL, the code in index.php composes a simple "hello world" text message and sends the text using Twilio. The status indicating whether the message was sent successfully is echoed back in the HTTP response.
 
 0. **How do I pass environment variables to my application?** In Bluemix and Cloud Foundry you can use the command line tool to set application-specific environment variables. This is done using the ```cf set-env``` command or in your deployment manifest.yml file. More details on how to set the environment variables is available from http://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#env-block
-You can also use the [email as a service sample](https://github.com/IBM-Bluemix/fiu-2015-hackathon#sendgrid-email-as-a-service) as an example.
+You can also use the [email as a service sample](https://github.com/osipov/fiu-2015-hackathon#sendgrid-email-as-a-service) as an example.
