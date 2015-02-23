@@ -1,8 +1,30 @@
-#On this page you will find the getting started instructions and sample code for the FIU Cloud Hackathon which is a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
+#On this page you will find the getting started instructions and sample code for the [FIU Cloud Hackathon](http://visa.cis.fiu.edu/tiki/Cloud+Hackathon) which is a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
 
 Before starting with any of the following instructions, ensure that you have IBM Bluemix account. You can register for one here: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
 
+**THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE IS AVAILABLE HERE** http://www.slideshare.net/kosipov/fiu-cloudhackathonlec1
+
 **What is IBM Bluemix?** IBM Bluemix is a open source based cloud computing platform for building, running, and managing applications. Bluemix is built on  [Cloud Foundry](http://cloudfoundry.org/about/index.html), a [Platform as a Service](http://thoughtsoncloud.com/2014/02/what-is-platform-as-a-service-paas/) technology with a broad community both contributing and supporting the project. With IBM Bluemix, developers can focus on writing code instead of worrying about how to setup hardware, install and upgrade operating systems, deploy and configure Cloud Foundry, or maintain a high level of availability for cloud infrastructure and applications. 
+
+#Hackathon Project Ideas
+
+* [Your Celebrity Match with Watson Personality Modeling]()
+* [Buying a smartphone with Watson Tradeoff Analytics]()
+* [Talent Hotspot]()
+* [Remote Control of a Lego Robot]()
+
+##Your Celebrity Match with Watson Personality Modeling
+The [application](http://your-celebrity-match.mybluemix.net/) uses IBM Watson User Modeling and Twitter to find the celebrities that are similar to your personality. Twitter is being use to get the tweets for a given handler, the text from those tweets is send to User Modeling, who analyze the text and reply with a personality profile. That profile is compared to celebrity profiles to find the most similar. The source code for the application is available here: https://github.com/watson-developer-cloud/yourcelebritymatch
+
+##Buying a smartphone with Watson Tradeoff Analytics
+This [application](http://tradeoff-analytics-demo.mybluemix.net/) built with the Watson Tradeoff Analytics service helps find the best available options for you when buying a smartphone. The Tradeoff Analytics service is designed to help users make better decisions under multiple conflicting goals. The service processes a range of alternatives (e.g. different cell phone models) and objectives (e.g. maximize screen size) and helps identify the alternatives that fit in the [Pareto efficient frontier](http://en.wikipedia.org/wiki/Pareto_efficiency#Overview). The service also generates a multidimensional visualization to help guide the selection of an optimal alternative.
+
+##Talent Hotspot or Persona Fusion
+Talent Hotspot is a web application that allows you to search for candidates from a pool of applicants based on how closely they resemble one of your current employees. Talent Hotspot uses Watson's User Modeling API service to analyze a potential candidate's personality based on their answers to a questionnaire. The application can issue queries such as, "Find me a Developer like Craig Smith". Then search through all possible candidate and return a ranked list of candidates sorted by highest-to-lowest percentage of personality resemblance. From here, searches can be refined by including technical skills. "Find me a Developer like Craig Smith, and knows Java, C and Python". The source code for the application is available here: https://github.com/jsloyer/talent-manager-complete
+
+
+##Remote Control of a Lego Robot
+If you have access to a LEGO Mindstorms robot you might be interested in trying out [this application](https://developer.ibm.com/bluemix/2015/01/19/remote-control-ev3-robot-via-ibm-bluemix-iot/). The LEGO kit comes with some motors and touch, color and infrared sensors. The kit also contains a remote control leveraging the infrared sensor and you can drive the robot from iOS and Android devices via Bluetooth. There is [a video](https://www.youtube.com/watch?v=o-LgOk9OJMw) showing how the robot can be connected to the Bluemix Internet of Things service to enable remote control of the robot from a Bluemix application.
 
 #Other Useful Services
 
