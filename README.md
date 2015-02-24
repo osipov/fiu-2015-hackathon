@@ -1,4 +1,4 @@
-#On this page you will find the getting started instructions and sample code for the [FIU Cloud Hackathon](http://visa.cis.fiu.edu/tiki/Cloud+Hackathon) which is a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
+#On this page you will find the getting started instructions and sample code for the [FIU Cloud Hackathon](http://visa.cis.fiu.edu/tiki/Cloud+Hackathon) conducted as a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
 
 Before starting with any of the following instructions, ensure that you have IBM Bluemix account. You can register for one here: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
 
