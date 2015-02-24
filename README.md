@@ -10,6 +10,7 @@ Before starting with any of the following instructions, ensure that you have IBM
 
 * [Your Celebrity Match with Watson Personality Modeling](https://github.com/osipov/fiu-2015-hackathon#your-celebrity-match-with-watson-personality-modeling)
 * [Buying a smartphone with Watson Tradeoff Analytics](https://github.com/osipov/fiu-2015-hackathon#buying-a-smartphone-with-watson-tradeoff-analytics)
+* [Build a collaborative encyclopedia of concept maps]()
 * [Talent Hotspot](https://github.com/osipov/fiu-2015-hackathon#talent-hotspot-or-persona-fusion)
 * [Remote Control of a Lego Robot](https://github.com/osipov/fiu-2015-hackathon#remote-control-of-a-lego-robot)
 
@@ -18,6 +19,9 @@ The [application](http://your-celebrity-match.mybluemix.net/) uses IBM Watson Us
 
 ##Buying a smartphone with Watson Tradeoff Analytics
 This [application](http://tradeoff-analytics-demo.mybluemix.net/) built with the Watson Tradeoff Analytics service helps find the best available options for you when buying a smartphone. The Tradeoff Analytics service is designed to help users make better decisions under multiple conflicting goals. The service processes a range of alternatives (e.g. different cell phone models) and objectives (e.g. maximize screen size) and helps identify the alternatives that fit in the [Pareto efficient frontier](http://en.wikipedia.org/wiki/Pareto_efficiency#Overview). The service also generates a multidimensional visualization to help guide the selection of an optimal alternative.
+
+##Build a collaborative encyclopedia of concept maps
+The [Concept Maps application](http://conceptmaps.info/) is a collaborative repository for easily sharing and searching high-level knowledge to gain insight quickly into a topic and related information. The site is the realization of a vision that we, as lean innovators, had for a space where knowledge can be: 1) collaboratively and effectively organized, presented, and optimized for fast consumption and navigation; 2) indexed to be searchable both locally and by crawling engines; 3) annotated for easy sharing on social media and other, more-direct communication formats. There is more about how to write the app here: http://www.ibm.com/developerworks/cloud/library/cl-conceptmaps-app/index.html 
 
 ##Talent Hotspot or Persona Fusion
 Talent Hotspot is a web application that allows you to search for candidates from a pool of applicants based on how closely they resemble one of your current employees. Talent Hotspot uses Watson's User Modeling API service to analyze a potential candidate's personality based on their answers to a questionnaire. The application can issue queries such as, "Find me a Developer like Craig Smith". Then search through all possible candidate and return a ranked list of candidates sorted by highest-to-lowest percentage of personality resemblance. From here, searches can be refined by including technical skills. "Find me a Developer like Craig Smith, and knows Java, C and Python". The source code for the application is available here: https://github.com/jsloyer/talent-manager-complete
