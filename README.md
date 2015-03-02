@@ -6,11 +6,13 @@
 
 Before starting with any of the following instructions, ensure that you have IBM Bluemix account. You can register for one here: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
 
-Regardless of whether you choose to develop the project for your hackathon using Java or PHP, first download and install the latest release of the Cloud Foundry command line interface (CLI) for your operating system from https://github.com/cloudfoundry/cli/releases
+Regardless of whether you choose to develop the hackathon project using Java or PHP, first download and install the latest release of the Cloud Foundry command line interface (CLI) for your operating system from https://github.com/cloudfoundry/cli/releases
 
-**If you going to use Java**
+**OPTIONAL** [Git](https://en.wikipedia.org/wiki/Git_%28software%29) is often used for source code control in modern software development. All of the sample source code for this hackathon is available from public github.com repositories (repos). When you visit a repo webpage (e.g. https://github.com/osipov/bluemix-twilio-java-sample) there is a Download ZIP button that you can use to download the code without using git. If you are planning a career in software development or systems administration, this project is a good opportunity for you to learn to use git. You can learn more about how to setup git in your development environment here: https://help.github.com/articles/set-up-git/
 
-Since you are going to be compiling your code locally ensure that you have both java and javac installed in your development environment. Your code will be running on Java 7 (v1.7) in Bluemix. You can download this version of the JDK from variety of sources on the web, including http://docs.oracle.com/javase/7/docs/webnotes/install/ . Remember that you need the JDK, not the JRE.
+**If you are going to use Java**
+
+Since you are going to be compiling your code locally ensure that you have both java and javac installed in your development environment. Your code will be running on Java 7 (v1.7) in Bluemix. You can download this version of the JDK from a variety of sources on the web, including from http://docs.oracle.com/javase/7/docs/webnotes/install/ . Remember that you need the JDK, not the JRE.
 
 If have java and javac installed you can verify versions from the command line as follows
 
@@ -31,12 +33,13 @@ http://mirrors.advancedhosters.com/apache//ant/binaries/apache-ant-1.9.4-bin.zip
 
 Unzip the downloaded Ant zip package to someplace on your file system and ensure that the resulting apache-ant-1.9.4/bin directory is in your PATH variable
 
-Confirm that you can run Ant by executing
-	ant -version
+Confirm that you can run Ant from the command line as follows
 
-which should print out the following
-	Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+```
+$ ant -version
 
+Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+```
 
 ##What You Need to Know
 
@@ -48,7 +51,7 @@ which should print out the following
 
 **How do I get help with Bluemix?** Start by searching the [question and answer forum](https://developer.ibm.com/answers/smartspace/bluemix/). If you can't find a good answer search the web. If that doesn't help, try posting your question to the forum. Tag your question with the word HACKATHON. Most questions are answered within 24 hours.
 
-#Hackathon Project Ideas
+#Inspirational Examples
 
 * [Your Celebrity Match with Watson Personality Modeling](https://github.com/osipov/fiu-2015-hackathon#your-celebrity-match-with-watson-personality-modeling)
 * [Buying a smartphone with Watson Tradeoff Analytics](https://github.com/osipov/fiu-2015-hackathon#buying-a-smartphone-with-watson-tradeoff-analytics)
