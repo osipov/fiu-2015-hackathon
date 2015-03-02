@@ -1,14 +1,52 @@
 #On this page you will find the getting started instructions and sample code for the [FIU Cloud Hackathon](http://visa.cis.fiu.edu/tiki/Cloud+Hackathon) conducted as a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
 
+**THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE IS AVAILABLE HERE** http://www.slideshare.net/kosipov/fiu-cloudhackathonlec1
+
+##Getting Started
+
 Before starting with any of the following instructions, ensure that you have IBM Bluemix account. You can register for one here: https://apps.admin.ibmcloud.com/manage/trial/bluemix.html
 
-**THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE IS AVAILABLE HERE** http://www.slideshare.net/kosipov/fiu-cloudhackathonlec1
+Regardless of whether you choose to develop the project for your hackathon using Java or PHP, first download and install the latest release of the Cloud Foundry command line interface (CLI) for your operating system from https://github.com/cloudfoundry/cli/releases
+
+**If you going to use Java**
+
+Since you are going to be compiling your code locally ensure that you have both java and javac installed in your development environment. Your code will be running on Java 7 (v1.7) in Bluemix. You can download this version of the JDK from variety of sources on the web, including http://docs.oracle.com/javase/7/docs/webnotes/install/ . Remember that you need the JDK, not the JRE.
+
+If have java and javac installed you can verify versions from the command line as follows
+
+```
+$ java -version
+
+java version "1.7.0_65"
+Java(TM) SE Runtime Environment (build 1.7.0_65-b17)
+Java HotSpot(TM) 64-Bit Server VM (build 24.65-b04, mixed mode)
+
+$ javac -version
+
+javac 1.7.0_65
+```
+
+Download Apache Ant, a build tool for Java
+http://mirrors.advancedhosters.com/apache//ant/binaries/apache-ant-1.9.4-bin.zip
+
+Unzip the downloaded Ant zip package to someplace on your file system and ensure that the resulting apache-ant-1.9.4/bin directory is in your PATH variable
+
+Confirm that you can run Ant by executing
+	ant -version
+
+which should print out the following
+	Apache Ant(TM) version 1.9.4 compiled on April 29 2014
+
+
+##What You Need to Know
 
 **What is IBM Bluemix?** IBM Bluemix is an open source based cloud computing platform for building, running, and managing applications. Bluemix is built on  [Cloud Foundry](http://cloudfoundry.org/about/index.html), a [Platform as a Service](http://thoughtsoncloud.com/2014/02/what-is-platform-as-a-service-paas/) technology with a broad community both contributing and supporting the project. With IBM Bluemix, developers can focus on writing code instead of worrying about how to setup hardware, install and upgrade operating systems, deploy and configure Cloud Foundry, or maintain a high level of availability for cloud infrastructure and applications. More information about Bluemix is available from https://www.ng.bluemix.net/docs/#overview/overview.html#overview
 
-**How do I run a Java Web Application on Bluemix** There are three sample Java Web starter applications. The first is a very simple, Hello World style starter application which you can use as a template to add your code and push changes back to the Bluemix environment. Second uses a relational database (IBM DB2) and another one uses a NoSQL, JSON document store (IBM Cloudant). When you run the sample application included with the Java DB2 boilerplate, a list is displayed. You can add, modify, and delete items from the list. Those items are saved to the back-end database. By default, this list contains instructions about how to use JPA or JDBC to access the database service that binds to the application. The default list also contains information about adding, deleting, and modifying the list items. https://www.ng.bluemix.net/docs/#starters/javaDB/index.html#javawebdatabase Third lets you run the Java Cloudant boilerplate, you get a favorites organizer for organizing the files on your computer in different categories. You can create, modify, and delete categories and upload files of different types in each of the categories. Cloudant NoSQL DB saves the data on the back end. The application creates a sample category by default. https://www.ng.bluemix.net/docs/#starters/java-cloudant/index.html#java-cloudant
+**How do I run a Java Web Application on Bluemix?** There are three sample Java Web starter applications. The first is a very simple, Hello World style starter application which you can use as a template to add your code and push changes back to the Bluemix environment. Second uses a relational database (IBM DB2) and another one uses a NoSQL, JSON document store (IBM Cloudant). When you run the sample application included with the Java DB2 boilerplate, a list is displayed. You can add, modify, and delete items from the list. Those items are saved to the back-end database. By default, this list contains instructions about how to use JPA or JDBC to access the database service that binds to the application. The default list also contains information about adding, deleting, and modifying the list items. https://www.ng.bluemix.net/docs/#starters/javaDB/index.html#javawebdatabase Third lets you run the Java Cloudant boilerplate, you get a favorites organizer for organizing the files on your computer in different categories. You can create, modify, and delete categories and upload files of different types in each of the categories. Cloudant NoSQL DB saves the data on the back end. The application creates a sample category by default. https://www.ng.bluemix.net/docs/#starters/java-cloudant/index.html#java-cloudant
 
-**How do I run a PHP Web Application on Bluemix** There is a very simple, Hello World style PHP starter application as a template so that you can add your code and push the changes back to the Bluemix environment. The PHP runtime environment is the container for this type of applications. More information is available here: https://www.ng.bluemix.net/docs/#starters/php/index.html#php
+**How do I run a PHP Web Application on Bluemix?** There is a very simple, Hello World style PHP starter application as a template so that you can add your code and push the changes back to the Bluemix environment. The PHP runtime environment is the container for this type of applications. More information is available here: https://www.ng.bluemix.net/docs/#starters/php/index.html#php
+
+**How do I get help with Bluemix?** Start by searching the [question and answer forum](https://developer.ibm.com/answers/smartspace/bluemix/). If you can't find a good answer search the web. If that doesn't help, try posting your question to the forum. Tag your question with the word HACKATHON. Most questions are answered within 24 hours.
 
 #Hackathon Project Ideas
 
