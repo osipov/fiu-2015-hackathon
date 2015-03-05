@@ -84,7 +84,7 @@ If you have access to a LEGO Mindstorms robot you might be interested in trying 
 #Other Useful Services
 
 * [Cloudant Document-oriented NoSQL Database](https://github.com/osipov/fiu-2015-hackathon#cloudant-document-oriented-nosql-database)
-* [MySQL Relational Database](https://github.com/osipov/fiu-2015-hackathon#mysql-relational-database)
+* [DB2 Relational Database](https://github.com/osipov/fiu-2015-hackathon#db2-relational-database)
 * [Sendgrid Email as a Service](https://github.com/osipov/fiu-2015-hackathon#sendgrid-email-as-a-service)
 * [Twilio Telephony as a Service](https://github.com/osipov/fiu-2015-hackathon#twilio-telephony-as-a-service)
 
