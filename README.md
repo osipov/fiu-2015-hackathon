@@ -113,7 +113,7 @@ Twilio enables phones, VoIP, and messaging to be embedded into web, desktop, and
 You will also need a number that can receive text messages. This number must be verified with Twilio using the following link http://twilio.com/user/account/phone-numbers/verified
 
 **If you are going to use Java**
-Follow the example shown during the first lecture on Bluemix.
+Follow the example shown during the first lecture on Bluemix and explained here: https://github.com/osipov/bluemix-twilio-java-sample
 
 **If you are going to use PHP**
 Use the instructions available here: https://github.com/osipov/bluemix-twilio-php-sample
