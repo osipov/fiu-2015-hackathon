@@ -1,6 +1,7 @@
 #On this page you will find the getting started instructions and sample code for the [FIU Cloud Hackathon](http://visa.cis.fiu.edu/tiki/Cloud+Hackathon) conducted as a part of the [CEN4083 Introduction to Cloud Computing](http://visa.cis.fiu.edu/tiki/cen4083) course.
 
-**THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE WILL BE AVAILABLE BELOW** 
+**THE PRESENTATION FROM THE INTRODUCTION TO BLUEMIX LECTURE IS AVAILABLE HERE**
+https://dl.dropboxusercontent.com/u/3823117/fiu-cloud-hackathon-lec1-v6.pdf
 
 ##Getting Started
 
